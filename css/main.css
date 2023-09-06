@@ -16,12 +16,14 @@ html {
 }
 
 body {
+  max-width: 380px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
   line-height: 1.5rem;
   font-family: "roboto", sans-serif;
+  background-color: var(--light-blue);
 }
 
 a {
@@ -43,6 +45,7 @@ nav {
 
 nav a {
   font-size: 18px;
+  font-weight: 500;
   text-decoration: none;
   letter-spacing: 0.9px;
 }
@@ -55,5 +58,65 @@ hr {
   border: var(--blue) solid 0.5px;
 }
 
-.button-square {
+main a {
+  text-decoration: none;
+}
+
+.button-blue {
+  background-color: var(--blue);
+  color: var(--light-grey);
+  font-weight: 500;
+  letter-spacing: 1px;
+  width: 130px;
+  height: 48px;
+  padding: 12px 32px;
+  margin: 32px 16px;
+}
+
+.button-blue p {
+  font-size: 20px;
+}
+
+.button-blue-square {
+  filter: drop-shadow(0px 2px 4px rgba(58, 90, 247, 0.5));
+  border-radius: 10px;
+  margin-top: 64px;
+}
+
+.button-blue-round {
+  filter: drop-shadow(0px 2px 4px rgba(58, 90, 247, 0.5));
+  border-radius: 90px;
+}
+
+.button-white {
+  background-color: #fff;
+  border-radius: 90px;
+  font-size: 30px;
+  color: var(--blue);
+  font-weight: 500;
+  width: 48px;
+  height: 48px;
+  margin: 0 0 64px 16px;
+}
+
+.button-white p {
+  padding: 12px 15px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 78px 16px;
+}
+
+.card h2 {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+}
+
+.card h3 {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1.1px;
 }
