@@ -33,6 +33,7 @@ a {
 img,
 video {
   max-inline-size: 100%;
+  display: block;
   block-size: auto;
   vertical-align: text-top;
 }
@@ -105,7 +106,8 @@ main a {
 
 .card {
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 8px;
+  overflow: hidden;
   margin: 78px 16px;
 }
 
@@ -113,10 +115,19 @@ main a {
   font-size: 28px;
   font-weight: 500;
   letter-spacing: 1.4px;
+  margin: 20px 0 4px 16px;
 }
 
 .card h3 {
   font-size: 22px;
   font-weight: 500;
   letter-spacing: 1.1px;
+  margin: 4px 0 0 16px;
+}
+
+.card p {
+  margin: 15px 17px 24px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.9px;
 }
